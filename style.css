@@ -1,0 +1,101 @@
+/* GLOBAL */
+:root {
+  --jet: #2f2f2f;
+  --davys-gray: #5b5b5b;
+  --dim-gray: #696969;
+  --gainsboro: #dadada;
+  --cedar: #d34f45;
+  --orange-red: #ff6054;
+  --terra-cotta: #ed8067;
+  --leaf-green: #b6e09f;
+  --tea-green: #c3e6b0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  font-family: "Monserrat";
+  background-color: var(--gainsboro);
+}
+/* VARIABLES */
+@font-face {
+  font-family: Monserrat;
+  src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(fonts/Montserrat/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-weight: semibold;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+  font-weight: thin;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(fonts/Montserrat/Montserrat-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+/* HEADER */
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 100%;
+  background-color: var(--terra-cotta);
+}
+#header-logo {
+  height: 100%;
+}
+#titlediv {
+  text-align: left;
+}
+#header-title {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--gainsboro);
+}
+header span {
+  color: var(--gainsboro);
+  font-size: 0.5rem;
+  font-weight: semibold;
+  text-align: right;
+}
+#header-menu {
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  list-style: none;
+  font-size: 0.8rem;
+}
+#header-menu .header-menu-item {
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  padding: 1rem;
+}
+#header-menu .header-menu-item:hover {
+  background-color: var(--gainsboro);
+  color: var(--terra-cotta);
+}
+#header-menu .header-menu-item:hover a {
+  color: var(--terra-cotta);
+}
+#header-menu a {
+  text-decoration: none;
+  color: var(--gainsboro);
+  font-weight: bold;
+}
