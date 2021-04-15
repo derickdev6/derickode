@@ -1,0 +1,21 @@
+/* HEADER */
+#header-title {
+  font-size: 3rem;
+}
+header span {
+  font-size: 1rem;
+  display: inline;
+}
+#header-menu {
+  font-size: 1.5rem;
+}
+/* MAIN  - LANDING*/
+#landing {
+}
+#landing #main-pic {
+  height: 25rem;
+}
+#landing h1 {
+  font-size: 4.5rem;
+}
+/* MAIN */
