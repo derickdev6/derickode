@@ -117,11 +117,10 @@ header span {
   padding: 1rem;
 }
 #header-menu .header-menu-item:hover {
-  background-color: var(--gainsboro);
-  color: var(--terra-cotta);
+  background-color: var(--orange-red);
 }
 #header-menu .header-menu-item:hover a {
-  color: var(--terra-cotta);
+  /* color: var(--terra-cotta); */
 }
 #header-menu a {
   text-decoration: none;
@@ -161,12 +160,13 @@ header span {
 
 #main .main-subtitle {
   padding: 1rem 2rem 1rem 2rem;
-  background-color: var(--queen-blue);
-  color: var(--gainsboro);
+  /* background-color: var(--queen-blue); */
+  color: var(--jet);
   font-size: 3rem;
 }
 #main .main-subtitle + p {
   padding: 0 2rem 5rem 2rem;
-  font-size: 1.5rem;
   line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: var(--jet);
 }
