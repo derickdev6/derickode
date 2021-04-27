@@ -84,14 +84,13 @@ header {
   background-color: var(--cedar);
 }
 #header-logo {
-  margin-left: 1rem;
   height: 100%;
 }
 #titlediv {
   text-align: left;
 }
 #header-title {
-  display: inline-block;
+  display: none;
   font-size: 2rem;
   font-weight: bold;
   color: var(--gainsboro);
@@ -107,14 +106,16 @@ header span {
   justify-content: space-between;
   display: flex;
   height: 100%;
-  align-items: flex-end;
+  align-items: center;
   list-style: none;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
 #header-menu .header-menu-item {
+  height: 50%;
   text-align: center;
-  border-radius: 5px 5px 0 0;
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0 3vw;
 }
 #header-menu .header-menu-item:hover {
   background-color: var(--orange-red);
