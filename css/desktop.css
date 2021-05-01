@@ -1,0 +1,38 @@
+/* HEADER */
+header {
+  height: 8rem;
+}
+#header-logo {
+  margin-left: 10vw;
+}
+#header-subtitle {
+  display: inline;
+  font-size: 1.5rem;
+}
+#header-menu {
+  margin-right: 10vw;
+}
+/* MAIN  - LANDING*/
+main {
+  padding-top: 8rem;
+}
+#landing {
+  overflow: hidden;
+  height: calc(100vh - 8rem);
+}
+#landing h1 span {
+  display: inline;
+  font-size: 3rem;
+}
+
+/* MAIN */
+
+main .main-subtitle {
+  font-size: 3.5rem;
+  padding: 2rem 10vw;
+}
+main .main-subtitle + p {
+  padding: 1rem 10vw 5rem 10vw;
+  font-size: 2rem;
+  line-height: 4rem;
+}

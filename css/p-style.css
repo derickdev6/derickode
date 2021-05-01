@@ -177,6 +177,11 @@ main section .text-cont h2 {
   font-size: 3vh;
   padding: 3vh 0;
 }
+main section .text-cont a {
+  font-size: 2rem;
+  color: var(--gainsboro);
+  text-decoration: none;
+}
 main section .text-cont p {
   font-size: 2.5vh;
   line-height: 3.5vh;
