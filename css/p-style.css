@@ -112,11 +112,11 @@ header span {
   height: 100%;
   align-items: center;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 2vh;
 }
 #header-menu .header-menu-item {
   border: 1px solid var(--gainsboro);
-  border-radius: 5px;
+  border-radius: 1vh;
   height: 50%;
   text-align: center;
   display: flex;
