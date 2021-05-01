@@ -40,7 +40,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--turk-blue);
+  background: var(--terra-cotta);
 }
 
 /* Handle on hover */

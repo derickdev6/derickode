@@ -41,7 +41,6 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  border-radius: 1rem;
   background: var(--turk-blue);
 }
 
@@ -149,6 +148,7 @@ main h1 {
 }
 
 main section {
+  border-radius: 1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,10 +160,11 @@ main section {
 }
 
 main section .img-cont {
+  background-size: cover;
+  background-position: center center;
   height: 30vh;
   width: 100%;
   overflow: hidden;
-  background: #ffffff66;
 }
 
 main section .text-cont {
@@ -186,4 +187,17 @@ main section .text-cont p {
   font-size: 2.5vh;
   line-height: 3.5vh;
   padding: 1vh 0 5vh 0;
+}
+
+main .s1imgcont {
+  background-image: url(../img/python.jpg);
+}
+main .s2imgcont {
+  background-image: url(../img/code.jpg);
+}
+main .s3imgcont {
+  background-image: url(../img/cybsec.jpg);
+}
+main .s4imgcont {
+  background-image: url(../img/webdes.jpg);
 }
