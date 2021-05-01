@@ -18,6 +18,7 @@
   --dark-blue: #41469e;
 }
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -79,11 +80,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
+  height: 10vh;
   width: 100%;
   background-color: var(--cedar);
 }
 #header-logo {
+  margin-left: 3vw;
   height: 100%;
 }
 #titlediv {
@@ -91,7 +93,7 @@ header {
 }
 #header-title {
   display: none;
-  font-size: 2rem;
+  font-size: 6vh;
   font-weight: bold;
   color: var(--gainsboro);
 }
@@ -103,25 +105,26 @@ header span {
   text-align: right;
 }
 #header-menu {
+  margin-right: 3vw;
   justify-content: space-between;
   display: flex;
   height: 100%;
   align-items: center;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 2vh;
 }
 #header-menu .header-menu-item {
+  border: 1px solid var(--gainsboro);
+  border-radius: 1vh;
   height: 50%;
   text-align: center;
   display: flex;
   align-items: center;
-  padding: 0 3vw;
+  padding: 0 2vw;
+  margin: 0 1vw;
 }
 #header-menu .header-menu-item:hover {
   background-color: var(--orange-red);
-}
-#header-menu .header-menu-item:hover a {
-  /* color: var(--terra-cotta); */
 }
 #header-menu a {
   text-decoration: none;
@@ -130,27 +133,27 @@ header span {
 }
 /* MAIN  - LANDING*/
 main {
-  padding-top: 8rem;
+  padding-top: 10vh;
 }
 #landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 8rem);
+  height: 90vh;
   background: rgb(211, 79, 69);
   background: linear-gradient(180deg, rgba(211, 79, 69, 1) 0%, rgba(237, 128, 103, 1) 100%);
 }
 #landing #main-pic {
   display: block;
   border-radius: 50%;
-  height: 20rem;
+  height: 30vh;
   box-shadow: -1rem 1.5rem 0.5rem #00000055;
 }
 #landing h1 {
   padding: 4rem 0 8rem 0;
   font-family: monospace;
-  font-size: 4rem;
+  font-size: 6vh;
   text-align: center;
 }
 #landing h1 span {
@@ -160,14 +163,14 @@ main {
 /* MAIN */
 
 main .main-subtitle {
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 3vh 3vw;
   /* background-color: var(--queen-blue); */
   color: var(--jet);
-  font-size: 3rem;
+  font-size: 4vh;
 }
 main .main-subtitle + p {
-  padding: 0 2rem 5rem 2rem;
-  line-height: 2.5rem;
-  font-size: 1.5rem;
+  padding: 0 3vw 5rem 3vw;
+  line-height: 5vh;
+  font-size: 3vh;
   color: var(--jet);
 }
