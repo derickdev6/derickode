@@ -166,9 +166,12 @@ main section .txt-cont h2 span {
   font-weight: lighter;
 }
 main section .txt-cont p {
+  /* max-height: 20vh;
+  overflow: hidden;
+  text-overflow: ellipsis; */
   font-size: 2.5vh;
   line-height: 3.5vh;
-  padding-right: 12vw;
+  padding-right: 8vw;
   font-weight: lighter;
 }
 main section .colortag {
@@ -184,7 +187,8 @@ main section:hover .colortag {
   /* transition: 3s; */
 }
 main section .colortag p {
-  font-size: 2rem;
+  padding: 0 1rem;
+  font-size: 1.5rem;
   display: none;
   writing-mode: tb-rl;
   -webkit-transform: rotate(180deg);
@@ -197,6 +201,6 @@ main section:hover .colortag p {
   display: block;
 }
 
-.s1colortag {
-  background-color: var(--russian-green);
+.beginnercolortag {
+  background-color: var(--dim-gray);
 }
