@@ -1,0 +1,201 @@
+/* GLOBAL */
+:root {
+  --jet: #2f2f2f;
+  --davys-gray: #5b5b5b;
+  --dim-gray: #696969;
+  --gainsboro: #dadada;
+  --cedar: #d34f45;
+  --orange-red: #ff6054;
+  --terra-cotta: #ed8067;
+  --leaf-green: #b6e09f;
+  --tea-green: #c3e6b0;
+  --fern-green: #677e5a;
+  --russian-green: #7c996d;
+  --queen-blue: #427092;
+  --turk-blue: #426695;
+  --lasso-blue: #415b98;
+  --deep-blue: #41519b;
+  --dark-blue: #41469e;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  font-family: "Monserrat";
+  background-color: var(--gainsboro);
+}
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--gainsboro);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--terra-cotta);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lasso-blue);
+}
+/* VARIABLES */
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-weight: semibold;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+  font-weight: thin;
+}
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Montserrat/Montserrat-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+/* HEADER */
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: var(--fern-green);
+}
+#header-logo {
+  margin-left: 3vw;
+  height: 100%;
+}
+#titlediv {
+  text-align: left;
+}
+#header-title {
+  display: none;
+  font-size: 6vh;
+  font-weight: bold;
+  color: var(--gainsboro);
+}
+header span {
+  display: none;
+  color: var(--gainsboro);
+  font-size: 0.5rem;
+  font-weight: semibold;
+  text-align: right;
+}
+#header-menu {
+  margin-right: 3vw;
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+  font-size: 2vh;
+}
+#header-menu .header-menu-item {
+  border: 1px solid var(--gainsboro);
+  border-radius: 1vh;
+  height: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+  margin: 0 1vw;
+}
+#header-menu .header-menu-item:hover {
+  background-color: var(--russian-green);
+}
+#header-menu a {
+  text-decoration: none;
+  color: var(--gainsboro);
+  font-weight: bold;
+}
+/* MAIN */
+
+main {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #2f2f2f33; */
+}
+main section {
+  border-radius: 1vh;
+  margin: 3vh;
+  padding: 2vh 2vw;
+  width: 94vw;
+  font-family: Monserrat;
+  color: var(--jet);
+  display: flex;
+}
+main section a {
+  text-decoration: none;
+  color: var(--jet);
+}
+main section .txt-cont {
+  width: 92vw;
+}
+main section .txt-cont h2 {
+  font-size: 3vh;
+  font-weight: bold;
+}
+main section .txt-cont h2 span {
+  font-size: 1.5vh;
+  font-weight: lighter;
+}
+main section .txt-cont p {
+  font-size: 2.5vh;
+  line-height: 3.5vh;
+  padding-right: 12vw;
+  font-weight: lighter;
+}
+main section .colortag {
+  display: flex;
+  align-items: center;
+  width: 2vw;
+}
+main section:hover {
+  background: linear-gradient(160deg, var(--russian-green) -100%, var(--gainsboro) 100%);
+}
+main section:hover .colortag {
+  width: auto;
+  /* transition: 3s; */
+}
+main section .colortag p {
+  font-size: 2rem;
+  display: none;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+main section:hover .colortag p {
+  color: var(--gainsboro);
+  display: block;
+}
+
+.s1colortag {
+  background-color: var(--russian-green);
+}
