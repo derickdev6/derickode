@@ -1,0 +1,34 @@
+/* HEADER */
+header {
+  height: 8rem;
+}
+#header-logo {
+  margin-left: 10vw;
+}
+#header-subtitle {
+  display: inline;
+  font-size: 1.5rem;
+}
+#header-menu {
+  margin-right: 10vw;
+}
+/* MAIN  - LANDING*/
+main {
+  padding-top: 8rem;
+}
+#landing {
+  overflow: hidden;
+  height: calc(100vh - 8rem);
+}
+#landing h1 span {
+  display: inline;
+  font-size: 3rem;
+}
+
+/* MAIN */
+main section {
+  width: 80vw;
+}
+main section .txt-cont p {
+  max-height: none;
+}

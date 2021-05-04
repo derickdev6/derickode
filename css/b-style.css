@@ -139,7 +139,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #2f2f2f33; */
 }
 main section {
   border-radius: 1vh;
@@ -166,9 +165,9 @@ main section .txt-cont h2 span {
   font-weight: lighter;
 }
 main section .txt-cont p {
-  /* max-height: 20vh;
+  max-height: 10vh;
   overflow: hidden;
-  text-overflow: ellipsis; */
+  text-overflow: ellipsis;
   font-size: 2.5vh;
   line-height: 3.5vh;
   padding-right: 8vw;
@@ -184,7 +183,6 @@ main section:hover {
 }
 main section:hover .colortag {
   width: auto;
-  /* transition: 3s; */
 }
 main section .colortag p {
   padding: 0 1rem;
