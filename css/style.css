@@ -142,7 +142,7 @@ main {
   align-items: center;
   height: 90vh;
   background: rgb(211, 79, 69);
-  background: linear-gradient(180deg, rgba(211, 79, 69, 1) 0%, rgba(237, 128, 103, 1) 100%);
+  background: linear-gradient(180deg, var(--cedar) 0%, var(--terra-cotta) 100%);
 }
 #landing #main-pic {
   display: block;
@@ -185,9 +185,9 @@ main .main-subtitle + p {
 
 footer {
   height: 20vh;
-  background-color: var(--cedar);
+  background-color: var(--terra-cotta);
 }
 footer .copyright {
-  color: var(--gainsboro);
+  color: var(--jet);
   font-size: 2vh;
 }
