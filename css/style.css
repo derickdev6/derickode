@@ -184,10 +184,24 @@ main .main-subtitle + p {
 /* FOOTER */
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   height: 20vh;
   background-color: var(--terra-cotta);
 }
+footer p {
+  padding: 3vh;
+  font-size: 2.5vh;
+}
+footer p a {
+  color: var(--jet);
+  text-decoration: none;
+  font-weight: bold;
+}
 footer .copyright {
+  padding: 5vh;
   color: var(--jet);
   font-size: 2vh;
 }
