@@ -162,6 +162,12 @@ main {
 
 /* MAIN */
 
+main .main-subtitle + p a {
+  font-weight: bold;
+  color: var(--jet);
+  text-decoration: none;
+}
+
 main .main-subtitle {
   padding: 3vh 3vw;
   /* background-color: var(--queen-blue); */
