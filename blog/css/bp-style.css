@@ -2,7 +2,7 @@
 :root {
   --jet: #2f2f2f;
   --davys-gray: #5b5b5b;
-  --dim-gray: #696969;
+  --dim-gray: #999999;
   --gainsboro: #dadada;
   --cedar: #d34f45;
   --orange-red: #ff6054;
@@ -50,33 +50,32 @@ html {
 /* VARIABLES */
 @font-face {
   font-family: Monserrat;
-  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+  src: url(../../fonts/Montserrat/Montserrat-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: Monserrat;
-  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+  src: url(../../fonts/Montserrat/Montserrat-Bold.ttf);
   font-weight: bold;
 }
 @font-face {
   font-family: Monserrat;
-  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+  src: url(../../fonts/Montserrat/Montserrat-SemiBold.ttf);
   font-weight: semibold;
 }
 @font-face {
   font-family: Monserrat;
-  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+  src: url(../../fonts/Montserrat/Montserrat-Light.ttf);
   font-weight: thin;
 }
 @font-face {
   font-family: Monserrat;
-  src: url(../fonts/Montserrat/Montserrat-Italic.ttf);
+  src: url(../../fonts/Montserrat/Montserrat-Italic.ttf);
   font-weight: normal;
   font-style: italic;
 }
 /* HEADER */
 header {
-  z-index: 10;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -90,7 +89,7 @@ header {
   height: 100%;
 }
 #titlediv {
-  text-align: left;
+  text-align: center;
 }
 #header-title {
   display: none;
@@ -132,83 +131,55 @@ header span {
   color: var(--gainsboro);
   font-weight: bold;
 }
+
 /* MAIN */
 
 main {
-  padding-top: 10vh;
+  width: 94vw;
+  margin: 0 3vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-main section {
-  border-radius: 1vh;
-  margin: 3vh;
-  padding: 2vh 2vw;
-  width: 94vw;
-  font-family: Monserrat;
-  color: var(--jet);
-  display: flex;
-}
-main section a {
-  text-decoration: none;
-  color: var(--jet);
-}
-main section .txt-cont {
-  width: 92vw;
-}
-main section .txt-cont h2 {
-  font-size: 3vh;
-  font-weight: bold;
-}
-main section .txt-cont h2 span {
-  font-size: 1.5vh;
-  font-weight: lighter;
-}
-main section .txt-cont p {
-  /* max-height: 10vh; */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 2.5vh;
-  line-height: 3.5vh;
-  padding-right: 4vw;
-  font-weight: lighter;
-}
-main section .colortag {
-  display: flex;
-  align-items: center;
-  width: 2vw;
-}
-main section:hover {
-  background: linear-gradient(160deg, var(--russian-green) -100%, var(--gainsboro) 100%);
-}
-main section:hover .colortag {
-  width: auto;
-}
-main section .colortag p {
-  padding: 0 1rem;
-  font-size: 1.5rem;
-  display: none;
-  writing-mode: tb-rl;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-}
-main section:hover .colortag p {
-  color: var(--gainsboro);
-  display: block;
+  padding-top: 10vh;
 }
 
-.beginnercolortag {
+main .main-introtext {
+  margin: 5vh 0vw;
+  line-height: 3.5vh;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Monserrat;
+  color: var(--jet);
+  font-size: 2vh;
+}
+
+main h2 {
+  margin: 2vh 0vw;
+  color: var(--jet);
+  font-size: 3vh;
+}
+main p {
+  margin: 0 0vw 3rem 0vw;
+  line-height: 3vh;
+  font-size: 2vh;
+  color: var(--jet);
+}
+main .main-codebox {
+  white-space: nowrap;
+  overflow-x: auto;
+  font-size: 1.5vh;
+  font-family: monospace;
+  padding: 3vh 3vw;
   background-color: var(--dim-gray);
+}
+main img {
+  margin: 1vh 0 3vh 0;
+  align-self: center;
+  width: 100%;
 }
 
 /* FOOTER */
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
