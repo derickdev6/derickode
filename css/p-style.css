@@ -16,6 +16,9 @@
   --lasso-blue: #415b98;
   --deep-blue: #41519b;
   --dark-blue: #41469e;
+  --fs-title: 6rem;
+  --fs-subtitle: 4rem;
+  --fs-body: 2rem;
 }
 * {
   margin: 0;
@@ -143,7 +146,7 @@ main {
 }
 main h1 {
   padding: 3vh 0 0 0;
-  font-size: 6vh;
+  font-size: 4vh;
   color: var(--jet);
 }
 
@@ -185,8 +188,8 @@ main section .text-cont a {
 }
 main section .text-cont p {
   font-size: 2.5vh;
-  line-height: 3.5vh;
-  padding: 1vh 0 5vh 0;
+  line-height: 4vh;
+  padding: 3vh 0;
 }
 
 main .s1imgcont {

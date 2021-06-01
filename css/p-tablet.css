@@ -29,20 +29,23 @@ main {
   flex-wrap: wrap;
 }
 main h1 {
+  font-size: var(--fs-title);
   text-align: center;
   width: 90%;
 }
 
 main section {
-  width: 40%;
+  width: 80%;
 }
-
-main .main-subtitle {
-  font-size: 3.5rem;
-  padding: 1.5rem 10rem 1.5rem 10rem;
+main section .text-cont {
+  width: 80%;
 }
-main .main-subtitle + p {
-  padding: 1rem 10rem 5rem 10rem;
-  font-size: 2rem;
-  line-height: 2.5rem;
+main section .text-cont h2 {
+  font-size: var(--fs-subtitle);
+  padding: 2.5rem 0 2.5rem 0;
+}
+main section .text-cont p {
+  padding: 1rem 0 5rem 0;
+  font-size: var(--fs-body);
+  line-height: 4rem;
 }

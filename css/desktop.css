@@ -22,7 +22,8 @@ main {
 }
 #landing h1 span {
   display: inline;
-  font-size: 3rem;
+  font-size: var(--fs-subtitle);
+  font-weight: lighter;
 }
 
 /* MAIN */
