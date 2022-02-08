@@ -20,10 +20,29 @@ main {
   overflow: hidden;
   height: calc(100vh - 8rem);
 }
-#landing h1 span {
-  display: inline;
+#landing h1 {
+  padding-bottom: 2rem;
+}
+#landing h2 {
+  display: block;
+  white-space: nowrap;
+  border-right: 2px solid;
   font-size: var(--fs-subtitle);
   font-weight: lighter;
+  width: 12ch;
+  animation: typing 1.5s steps(12), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0px;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 /* MAIN */
